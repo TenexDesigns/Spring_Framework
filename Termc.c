@@ -1,7 +1,7 @@
 Spring Container /Spring context/ IOC container- Manages Spring beans and thir life cycle
 
    e.g         var context = new AnnotationConfigApplicationContext(Hello.class);
-            Here context becomes the spring container
+            Here context becomes the spring container, This is an example of Application Context
 
 
 Types of Spring Container
@@ -13,7 +13,7 @@ Types of Spring Container
      - Easy integration with SpringAOP
 3.Which one to use 
      - Most enterpic applications use Application context
-     - Recommeneded for  web applications, web services ,Rest API and microservices
+     - Application context Recommeneded for  web applications, web services ,Rest API and microservices
 
 
 Spring Bean - Anything managed by spring frawork
