@@ -1,18 +1,8 @@
 In the Spring Framework, there are several types of dependency injection (DI) that you can use to manage and inject dependencies into beans. Dependency injection is a fundamental concept in Spring that promotes loose coupling between components and makes your application more maintainable and testable. Here are the main types of dependency injection in Spring:
 
-Absolutely, lets explore the concepts of bean lifecycle, dependency injection, and different types of injection using code samples from the provided context.
 
-**1. Bean Lifecycle:**
-The lifecycle of a Spring bean involves several phases: instantiation, initialization, use, and destruction. The Spring container manages these phases automatically.
 
-Heres a simplified version of how the bean lifecycle works:
-1. The container creates an instance of the bean.
-2. The container injects any dependencies into the bean.
-3. The container initializes the bean (e.g., calling `@PostConstruct` methods).
-4. You use the bean within your application.
-5. The container destroys the bean (e.g., calling `@PreDestroy` methods).
-
-**2. Dependency Injection:**
+** Dependency Injection:**
 Dependency injection is a fundamental concept in Spring, where a class (bean) receives its dependencies from external sources rather than creating them internally. The Spring container handles the injection of dependencies.
 
 **Qualifying a Dependency:** A dependency is an object that another class relies on to perform its functionality. In Spring, a dependency can be any object that is required by a bean to operate properly.
