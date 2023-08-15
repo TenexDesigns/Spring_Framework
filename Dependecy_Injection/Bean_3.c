@@ -19,3 +19,25 @@ By utilizing the ApplicationContext, developers can benefit from automatic bean 
 I hope this explanation helps you understand the different areas and terms related to the ApplicationContext in Spring. Let me know if you have any further questions!
 
 
+
+
+
+
+--------------------------------------------------------------------------------------
+
+  In the code you provided, the following are beans:
+
+1. **Bean: `age()`**
+   This method is annotated with `@Bean` and returns an `int` value of 234. In the context of Spring, any method annotated with `@Bean` is considered a bean. In this case, the `age()` method is a bean that provides an `int` value.
+
+2. **Bean: `address()`**
+   This method is also annotated with `@Bean` and returns an instance of the `Address` class. The `Address` class is defined as a record with two fields: `int lane` and `String city`. The `address()` method is a bean that provides an `Address` object with the values 344 and "Nairobi".
+
+3. **Bean: `Address`**
+   The `Address` class itself is considered a bean. It is defined as a record with two fields: `int lane` and `String city`. In the context of Spring, any class that is managed by the container and can be retrieved as a bean is considered a bean. In this case, the `Address` class is a bean that represents an address with a lane and a city.
+
+These beans can be managed and retrieved by the ApplicationContext, allowing for dependency injection and other Spring features.
+
+I hope this clarifies which parts of the code are considered beans. Let me know if you have any further questions!
+
+  
